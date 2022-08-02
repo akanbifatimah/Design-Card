@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(142, 114, 228);
+    font-size: 16px;
+}   
+.container{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    height: 100vh; 
+    margin: auto;
+    
+}
+.content{
+    height: auto;
+    max-width: 100%;
+    
+}
+.box1,.box3{
+    width: 100%;
+    height: 50px;
+    background-color: blue;
+
+}
+.box2{
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    
+    
+}
+.box2 h1, .box2 > p{
+    margin-top: 10px;
+}
+
+.box2 h1, .box2 p:nth-child(odd){
+    color: red;
+    font-weight: lighter;
+}
+
+.socials span{
+    width: 40px;
+    justify-content: center;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    background-color: #e6e3e3;
+    margin: 5px 10px;
+    border-radius: 50%;
+    
+}
+.socials{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
